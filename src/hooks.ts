@@ -6,7 +6,6 @@ export function useSocketVehicles(): Vehicle[] {
     const [vehicles, setVehicles] = useState<Vehicle[]>([])
 
     /*
-    //TODO: fake. remove this after switching to Socket.IO
     useEffect(() => {
         const callback = () => {
             const vehicle: Vehicle = {
